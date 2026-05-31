@@ -1,0 +1,98 @@
+ls - mostra o que tem onde estamos
+ls -a - mostra os arquivos ocultos
+cd "nome do caminho" - entra no destino
+pwm - mostra o caminho real que você está
+mkdir ‘nome da pasta’ - cria a pasta
+git init . - vira uma pasta especial para versionar ela torna ela um repositório
+mkdir "nome da pasta" - cria uma pasta
+
+LS - mostra o que tem onde estamos
+LS -A - mostra os arquivos ocultos 
+CD nome do local - abre o diretório que colocamos
+PWD - mostra o caminho real que você está
+MKDIR ‘nome da pasta’ - cria a pasta
+GIT INIT . - vira uma pasta especial para versionar ela torna ela um repositório
+
+Se alguem quiser umas anotações do passo a passo:
+
+Tutorial Completo — Subindo Seu Primeiro Projeto para o GitHub
+
+1. Criar conta no GitHub
+
+Acesse:
+
+https://github.com
+
+Crie sua conta normalmente.
+
+2. Criar um repositório no GitHub
+
+2.1 No GitHub, clique em "New Repository"
+2.2 Escolha um nome
+2.3 Escolha se você quer deixar ele "Public" ou "Private"
+2.4 Clique em Create repository
+
+
+3. ABRIR O PROJETO NO VSCODE
+
+Abra a pasta do seu projeto que quer enviar ao GITHUB no VsCode e clique em:
+Terminal -> New Terminal - Todos os comandos precisam ser no terminal
+
+
+4- Inicializar o Git
+
+Comando: GIT INIT
+
+4.1 Digite "git init" Isso ativa o Git dentro do projeto.
+
+
+5. VERIFICAR ARQUIVOS
+
+Comando: GIT STATUS
+
+5.1 Digite "git status" isso ira mostrar todos os arquivos e suas modificações
+
+Arquivos vermelhos = ainda não adicionados.
+Arquivos verdes = ja adicionado 
+
+6. CRIAR ARQUIO ".gitignore"  
+
+No diretório do projeto crie um arquivo chamado ".gitignore" e digite:
+
+node_modules/
+.env
+
+O ".gitignore" é um arquivo que evita subir os arquivos desnecessários
+
+7. ADICIONAR ARQUIVOS AO GIT
+
+Comando: GIT ADD .
+
+Utilize o comando "git add ." para enviar os arquivos que estão no diretorio 
+para o repositorio que você criou com o comando "git init"
+
+
+8. CRIAR PRIMEIRO COMMIT
+
+Comando: git commit -m "Primeiro Commit" 
+            ↓
+Um "commit" salva uma versão do projeto que ficara visivel no seu repositorio do github. 
+            ↓
+Comando: GIT BRANCH -M MAIN - Transforma repositorio na branch "main"
+
+9. CONECTAR PROJETO AO GITHUB
+
+Comando: GIT ADD ORIGIN 
+
+No seu repositorio no site do github, copie a URL de seu repositorio https://github.com/SEU-USUARIO/CursoDevFullStack.git
+e no TERMINAL utilize o comando "git remote add origin https://github.com/DiogoMagrinS/CursoDevFullStack.git"
+
+10. ENVIAR REPOSITORIO AO GITHUB 
+
+Comando: git push -u origin main 
+
+Ira pedir login abra no navegador e entre com sua conta que você criou no github.
+
+Após isso:
+
+✅ Projeto enviado.
