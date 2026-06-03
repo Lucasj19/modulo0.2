@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulário</title>
+</head>
+<body>
+    <form action="#">
+        <label for="nome">Nome </label> <!--Identifica algo-->
+        <input type="text" name="nome" id="nome"
+        placeholder="Digite seu nome completo" 
+        required>
+        <br><br>
+        <label for="email">Email</label>
+        <!--Colocar o input tipo email-->
+        <input type="email" name="email" id="nome"
+        placeholder="exemplo@email.com">
+        <br><br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha"
+        placeholder="Senha com 8-16 caracteres" minlength="8" maxlength="16">
+        <br><br>
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone">
+        <br><br>
+        <label for="data">Data Nascimento</label>
+        <input type="date" name="data" id="data">
+        <br><br>
+        <p>Escolha seu turno:</p>
+        <br>
+        <input type="radio" name="turno" id="manha">
+        <label for="manha">Manhã</label>
+        <input type="radio" name="turno" id="tarde">
+        <label for="tarde">Tarde</label>
+        <input type="radio" name="turno" id="noite">
+        <label for="noite">Noite</label>
+        <br><br>
+
+        <input type="checkbox" name="materia" id="quimica" value="quimica">
+        <label for="quimica">Química</label>
+        <input type="checkbox" name="materia" id="matematica" value="matematica">
+        <label for="matematica">Matemática</label>
+
+    </form>
+</body>
+</html>
