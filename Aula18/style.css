@@ -1,0 +1,17 @@
+.caixa{
+    background-color: aquamarine;
+    padding: 30px;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row; /*colun reverse - iverte*/
+    background-color: bisque;
+    /* Espaços iguais -- flex-end - Coloca para o fim ordem --- center - centraliza --- flex-start*/
+    height: 400px;
+    align-items: flex-end; /* Estica o item por todo o container --- Flex Start - tudo para cima --- flex end - tudo para baixo*/
+    justify-content: center;
+    /*gap: 60px somente entre as caixas*/
+    flex-wrap: wrap; /*Quebra linha ou permite que não quebre*/
+}
