@@ -7,7 +7,6 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     background-color: #f1f1f1; /* Posso usar tabela de cores - Só jogar no google*/
-
 }
 
 .cabecalho{
@@ -70,4 +69,28 @@ body{
 
 .produtos button a:hover{
    color: #ec870b;
+}
+
+.rodape{
+    background-color: #222;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.rodape p{
+    font-size: 10px;
+
+}
+
+.redes-sociais{
+    gap: 10px;
+}
+
+.redes-sociais img{
+    width: 30px;
+    color: white;
+
 }
